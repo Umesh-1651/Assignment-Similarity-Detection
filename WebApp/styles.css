@@ -1,0 +1,53 @@
+/* Global Background */
+body {
+    background-color: #f8fafc;
+}
+
+/* Top Navbar */
+.navbar {
+    background-color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.nav-menu a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #374151;
+}
+
+.nav-menu a.active {
+    background-color: #1e293b;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+    width: 600px;
+    margin: auto;
+}
+
+/* Primary Button */
+.stButton>button {
+    background-color: #1e293b;
+    color: white;
+    border-radius: 6px;
+    height: 45px;
+    width: 100%;
+}
